@@ -1,0 +1,10 @@
+CRITICAL - 2024-07-04 00:07:25 --> ArgumentCountError: Too few arguments to function App\Models\ClientesModel::editarCliente(), 1 passed in C:\xampp\htdocs\prueba_santander\app\Controllers\Clientes.php on line 31 and exactly 3 expected
+[Method: GET, Route: Clientes/EliminarCliente/1]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 APPPATH\Controllers\Clientes.php(31): App\Models\ClientesModel->editarCliente('1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->EliminarCliente('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
